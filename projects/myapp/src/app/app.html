@@ -1,0 +1,25 @@
+<h1>App</h1>
+
+
+<div class="flex flex-col gap-2 justify-center items-center">
+
+  <div class="container border-2 border-gray-500 container2">
+    styled by &#64;imported scss file
+
+    <DIV style="color: red;">THIS WONT HMR IF TAILWIND IS ON :(</DIV>
+
+  </div>
+  <div class="container border-2 border-gray-500 container1">
+    styled by root (./styles.scss file)
+    <DIV>ROOT STYLES SEEM TO HMR IF TAILWIND IS ON :)</DIV>
+  </div>
+  <div class="container border-2 border-gray-500 componentStyles">
+    styled by app component
+    <DIV>COMPONENT STYLES SEEM TO HMR IF TAILWIND IS ON :)</DIV>
+  </div>
+
+  <div class="text-green-500">
+    If tailwind works... this text should be green
+  </div>
+  <div class="hidden">TAILWIND DISABLED</div>
+</div>

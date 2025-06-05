@@ -22,5 +22,31 @@
     "typeCheckHostBindings": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/spro/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/spro/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/sandbox/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/sandbox/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/admin/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/admin/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/myapp/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/myapp/tsconfig.spec.json"
+    }
+  ]
 }
