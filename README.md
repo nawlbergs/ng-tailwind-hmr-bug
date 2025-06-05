@@ -29,3 +29,9 @@ I also tried the older @import methods:
 
 There is a branch `css-only` that does not use scss.
 The HMR seems to work fine in with just css.
+
+
+# issues
+this repo was created for the issues at:
+https://github.com/angular/angular/issues/61906
+https://github.com/tailwindlabs/tailwindcss/issues/18232
