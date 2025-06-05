@@ -14,3 +14,9 @@ inside the `myapp/styles.scss` file:
 @use "./other-styles.scss";
 ```
 
+I also tried the older:
+```scss
+@import "tailwindcss";
+
+@import "./other-styles.scss";
+```
