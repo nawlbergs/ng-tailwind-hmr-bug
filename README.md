@@ -20,3 +20,7 @@ I also tried the older:
 
 @import "./other-styles.scss";
 ```
+
+
+There is a branch `css-only` that does not use scss.
+The HMR seems to work fine in with just css.
