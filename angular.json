@@ -5,11 +5,7 @@
   "projects": {
     "myapp": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "projects/myapp",
       "sourceRoot": "projects/myapp/src",
       "prefix": "app",
@@ -19,7 +15,6 @@
           "options": {
             "browser": "projects/myapp/src/main.ts",
             "tsConfig": "projects/myapp/tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -27,7 +22,7 @@
               }
             ],
             "styles": [
-              "projects/myapp/src/styles.scss"
+              "projects/myapp/src/styles.css"
             ]
           },
           "configurations": {
@@ -73,7 +68,6 @@
           "builder": "@angular/build:karma",
           "options": {
             "tsConfig": "projects/myapp/tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -81,7 +75,7 @@
               }
             ],
             "styles": [
-              "projects/myapp/src/styles.scss"
+              "projects/myapp/src/styles.css"
             ]
           }
         }

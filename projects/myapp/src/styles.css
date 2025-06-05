@@ -1,7 +1,7 @@
 
-// COMMENTING THIS OUT MAKES HMR WORK AGAIN FOR @use "./other-styles.scss";
-@use "tailwindcss";
-@use "./other-styles.scss";
+/* COMMENTING THIS OUT MAKES HMR WORK AGAIN FOR @use "./other-styles.scss"; */
+@import "tailwindcss";
+@import "./other-styles.css";
 
 
 .container {
